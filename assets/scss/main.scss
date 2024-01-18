@@ -6,3 +6,73 @@
     text-transform: capitalize;
 }
 
+
+.my-container{
+
+    .my-row{
+
+        .my-col{
+
+            .king{
+
+                .input-div{
+
+                    input{
+                        padding: 2rem 5rem;
+                    }
+                }
+
+                .btn-div{
+
+                    .first-line-btn{
+                        
+                        button{
+                            width: 9rem;
+                            height: 4rem;
+                        }
+                    }
+
+                    .second-line-btn{
+                        
+                        button{
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .third-line-btn{
+                        
+                        button{
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .forth-line-btn{
+                        
+                        button{
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .fifth-line-btn{
+                        
+                        button{
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                        }
+
+                        #zero{
+                            width: 7.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
