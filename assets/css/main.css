@@ -9,30 +9,36 @@
 .my-container .my-row .my-col .king .input-div input {
   width: 19rem;
   height: 8rem;
+  font-size: 3rem;
 }
 .my-container .my-row .my-col .king .btn-div .first-line-btn button {
   width: 9rem;
   height: 4rem;
+  font-weight: 800;
 }
 .my-container .my-row .my-col .king .btn-div .second-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  font-weight: 800;
 }
 .my-container .my-row .my-col .king .btn-div .third-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  font-weight: 800;
 }
 .my-container .my-row .my-col .king .btn-div .forth-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  font-weight: 800;
 }
 .my-container .my-row .my-col .king .btn-div .fifth-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  font-weight: 800;
 }
 .my-container .my-row .my-col .king .btn-div .fifth-line-btn #zero {
   width: 9rem;
