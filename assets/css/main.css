@@ -17,63 +17,61 @@
   height: 8rem;
   font-size: 3rem;
 }
-.my-container .my-row .my-col .king .btn-div .first-line-btn button {
+.my-container .my-row .my-col .king .btn-div .first-part-btn button {
   width: 9rem;
   height: 4rem;
   font-weight: 900;
   font-size: 1.5rem;
 }
-.my-container .my-row .my-col .king .btn-div .first-line-btn #ac-btn {
+.my-container .my-row .my-col .king .btn-div .first-part-btn #ac-btn {
   color: white;
   background-color: rgb(255, 155, 182);
-  box-shadow: 0px 5px 2px 0px rgb(255, 85, 130);
 }
-.my-container .my-row .my-col .king .btn-div .first-line-btn #enter-btn {
+.my-container .my-row .my-col .king .btn-div .first-part-btn #enter-btn {
   color: white;
   background-color: rgb(170, 211, 255);
-  box-shadow: 0px 5px 2px 0px rgb(85, 167, 255);
 }
-.my-container .my-row .my-col .king .btn-div .second-line-btn button {
+.my-container .my-row .my-col .king .btn-div:hover {
+  box-shadow: 0px 0px 0px 0px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.my-container .my-row .my-col .king .btn-div:active {
+  background-color: rgb(141, 188, 238);
+  transition: background-color 0.1s ease-in-out;
+}
+.my-container .my-row .my-col .second-part-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
   font-weight: 900;
   color: white;
   background-color: rgb(210, 170, 211);
-  box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-  font-size: 1.5rem;
 }
-.my-container .my-row .my-col .king .btn-div .third-line-btn button {
+.my-container .my-row .my-col .third-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
   font-weight: 900;
   background-color: rgb(210, 170, 211);
   color: white;
-  box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-  font-size: 1.5rem;
 }
-.my-container .my-row .my-col .king .btn-div .forth-line-btn button {
+.my-container .my-row .my-col .forth-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
   font-weight: 900;
   background-color: rgb(210, 170, 211);
   color: white;
-  box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-  font-size: 1.5rem;
 }
-.my-container .my-row .my-col .king .btn-div .fifth-line-btn button {
+.my-container .my-row .my-col .fifth-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
   font-weight: 900;
   background-color: rgb(210, 170, 211);
   color: white;
-  box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-  font-size: 1.5rem;
 }
-.my-container .my-row .my-col .king .btn-div .fifth-line-btn #zero-btn {
+.my-container .my-row .my-col .fifth-line-btn #zero-btn {
   width: 9rem;
 }
 

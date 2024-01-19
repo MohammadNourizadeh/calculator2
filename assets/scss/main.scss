@@ -28,7 +28,7 @@
 
                 .btn-div {
 
-                    .first-line-btn {
+                    .first-part-btn {
 
                         button {
                             width: 9rem;
@@ -40,17 +40,28 @@
                         #ac-btn {
                             color: white;
                             background-color: rgb(255, 155, 182);
-                            box-shadow: 0px 5px 2px 0px rgb(255, 85, 130);
                         }
 
                         #enter-btn {
                             color: white;
                             background-color: rgb(170, 211, 255);
-                            box-shadow: 0px 5px 2px 0px rgb(85, 167, 255);
                         }
                     }
 
-                    .second-line-btn {
+                            &:hover{
+                                box-shadow: 0px 0px 0px 0px;
+                                transition: box-shadow .2s ease-in-out;
+                            }
+
+                            &:active{
+                                background-color: rgb(141, 188, 238);
+                                transition: background-color .1s ease-in-out;
+                            }
+
+                        }
+                    }
+
+                    .second-part-btn {
 
                         button {
                             width: 4rem;
@@ -59,9 +70,6 @@
                             font-weight: 900;
                             color: white;
                             background-color: rgb(210, 170, 211);
-                            box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-                            font-size: 1.5rem;
-
                         }
                     }
 
@@ -74,9 +82,6 @@
                             font-weight: 900;
                             background-color: rgb(210, 170, 211);
                             color: white;
-                            box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-                            font-size: 1.5rem;
-
                         }
                     }
 
@@ -89,9 +94,6 @@
                             font-weight: 900;
                             background-color: rgb(210, 170, 211);
                             color: white;
-                            box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-                            font-size: 1.5rem;
-
                         }
                     }
 
@@ -104,17 +106,13 @@
                             font-weight: 900;
                             background-color: rgb(210, 170, 211);
                             color: white;
-                            box-shadow: 0px 5px 2px 0px rgb(189, 75, 191);
-                            font-size: 1.5rem;
-
                         }
 
                         #zero-btn {
                             width: 9rem;
                         }
+
                     }
                 }
             }
         }
-    }
-}
