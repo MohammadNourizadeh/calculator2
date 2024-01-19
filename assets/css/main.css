@@ -17,6 +17,7 @@
   background-image: linear-gradient(rgb(255, 167, 221), rgb(193, 253, 255));
 }
 .my-container .my-row .my-col .king .input-div input {
+  background-color: white;
   width: 19rem;
   height: 8rem;
   font-size: 3rem;
