@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "digital";
+  src: url(../fonts/digital-7\ \(mono\ italic\).ttf);
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -16,6 +20,7 @@
   width: 19rem;
   height: 8rem;
   font-size: 3rem;
+  font-family: "digital";
 }
 .my-container .my-row .my-col .king .btn-div .first-part-btn button {
   width: 9rem;
