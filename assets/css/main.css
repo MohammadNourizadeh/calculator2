@@ -6,6 +6,12 @@
   text-transform: capitalize;
 }
 
+.my-container .my-row .my-col {
+  background-color: #E8ECF1;
+}
+.my-container .my-row .my-col .king {
+  background-image: linear-gradient(rgb(255, 167, 221), rgb(193, 253, 255));
+}
 .my-container .my-row .my-col .king .input-div input {
   width: 19rem;
   height: 8rem;
@@ -14,33 +20,49 @@
 .my-container .my-row .my-col .king .btn-div .first-line-btn button {
   width: 9rem;
   height: 4rem;
-  font-weight: 800;
+  font-weight: 900;
+}
+.my-container .my-row .my-col .king .btn-div .first-line-btn #ac-btn {
+  color: white;
+  background-color: rgb(255, 155, 182);
+}
+.my-container .my-row .my-col .king .btn-div .first-line-btn #enter-btn {
+  color: white;
+  background-color: rgb(170, 211, 255);
 }
 .my-container .my-row .my-col .king .btn-div .second-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  font-weight: 800;
+  font-weight: 900;
+  color: white;
+  background-color: rgb(210, 170, 211);
 }
 .my-container .my-row .my-col .king .btn-div .third-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  font-weight: 800;
+  font-weight: 900;
+  background-color: rgb(210, 170, 211);
+  color: white;
 }
 .my-container .my-row .my-col .king .btn-div .forth-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  font-weight: 800;
+  font-weight: 900;
+  background-color: rgb(210, 170, 211);
+  color: white;
 }
 .my-container .my-row .my-col .king .btn-div .fifth-line-btn button {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  font-weight: 800;
+  font-weight: 900;
+  background-color: rgb(210, 170, 211);
+  color: white;
 }
-.my-container .my-row .my-col .king .btn-div .fifth-line-btn #zero {
+.my-container .my-row .my-col .king .btn-div .fifth-line-btn #zero-btn {
   width: 9rem;
 }
 

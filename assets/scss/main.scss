@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -7,74 +7,94 @@
 }
 
 
-.my-container{
+.my-container {
 
-    .my-row{
+    .my-row {
 
-        .my-col{
+        .my-col {
+            background-color: #E8ECF1;
 
-            .king{
+            .king {
+                background-image: linear-gradient(rgb(255, 167, 221), rgb(193, 253, 255));
 
-                .input-div{
+                .input-div {
 
-                    input{
+                    input {
                         width: 19rem;
                         height: 8rem;
                         font-size: 3rem;
                     }
                 }
 
-                .btn-div{
+                .btn-div {
 
-                    .first-line-btn{
-                        
-                        button{
+                    .first-line-btn {
+
+                        button {
                             width: 9rem;
                             height: 4rem;
-                            font-weight: 800;
+                            font-weight: 900;
+                        }
+
+                        #ac-btn {
+                            color: white;
+                            background-color: rgb(255, 155, 182);
+                        }
+
+                        #enter-btn {
+                            color: white;
+                            background-color: rgb(170, 211, 255);
                         }
                     }
 
-                    .second-line-btn{
-                        
-                        button{
+                    .second-line-btn {
+
+                        button {
                             width: 4rem;
                             height: 4rem;
                             border-radius: 50%;
-                            font-weight: 800;
+                            font-weight: 900;
+                            color: white;
+                            background-color: rgb(210, 170, 211);
                         }
                     }
 
-                    .third-line-btn{
-                        
-                        button{
+                    .third-line-btn {
+
+                        button {
                             width: 4rem;
                             height: 4rem;
                             border-radius: 50%;
-                            font-weight: 800;
+                            font-weight: 900;
+                            background-color: rgb(210, 170, 211);
+                            color: white;
                         }
                     }
 
-                    .forth-line-btn{
-                        
-                        button{
+                    .forth-line-btn {
+
+                        button {
                             width: 4rem;
                             height: 4rem;
                             border-radius: 50%;
-                            font-weight: 800;
+                            font-weight: 900;
+                            background-color: rgb(210, 170, 211);
+                            color: white;
                         }
                     }
 
-                    .fifth-line-btn{
-                        
-                        button{
+                    .fifth-line-btn {
+
+                        button {
                             width: 4rem;
                             height: 4rem;
                             border-radius: 50%;
-                            font-weight: 800;
+                            font-weight: 900;
+                            background-color: rgb(210, 170, 211);
+                            color: white;
                         }
 
-                        #zero{
+                        #zero-btn {
                             width: 9rem;
                         }
                     }
